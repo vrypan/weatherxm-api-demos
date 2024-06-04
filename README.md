@@ -4,13 +4,15 @@ Short demos of the WeatherXM API (https://api.weatherxm.com/api/v1/docs/)
 # Installation
 
 ```bash
-git clone https://github.com/vrypan/weatherxm-api-demos.git
+$ git clone https://github.com/vrypan/weatherxm-api-demos.git
 
-python3 -m venv venv
+$ cd weatherxm-api-demos
 
-. ./venv/bin/activate
+$ python3 -m venv venv
 
-pip install -r requirements.txt
+$ . ./venv/bin/activate
+
+$ pip install -r requirements.txt
 
 ```
 
@@ -122,3 +124,11 @@ python ./one_day_temp_hist.py e2816f10-a9de-11ec-900c-abdec1c57354 | termgraph
 # API documentation
 
 You can find the full API documantation at https://api.weatherxm.com/api/v1/docs/
+
+# Limitations
+
+The API will only allow you to get historic data for your own stations or the stations you follow (you can follow up to 10 more stations).
+
+You can use the [search endpoint](https://api.weatherxm.com/api/v1/docs/#/network/search) to find stations to follow (or do it through the mobile app).
+
+If you are interested in using the API to get data for many stations, [WeatherXM Pro](https://weatherxm.com/weatherxm-pro/) is under development.
