@@ -1,5 +1,5 @@
 # weatherxm-api-demos
-Short demos of the WeatherXM API
+Short demos of the WeatherXM API (https://api.weatherxm.com)
 
 # Installation
 
@@ -118,3 +118,7 @@ python ./one_day_temp_hist.py e2816f10-a9de-11ec-900c-abdec1c57354 | termgraph
 2024-06-04T17:00:00+03:00: ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 36.98
 2024-06-04T18:00:00+03:00: ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 36.60
 ```
+
+# API documentation
+
+You can find the full API documantation at https://api.weatherxm.com
